@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.StepsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextNumber3"
+            android:layout_width="229dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginLeft="61dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginRight="61dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/TempTotalHint"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/CurrSteps"
+            app:layout_constraintVertical_bias="0.346" />
+
+        <EditText
+            android:id="@+id/todayGoal"
+            android:layout_width="231dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginLeft="61dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginRight="61dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/GoalHint"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.285"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/GoalSteps"
+            app:layout_constraintVertical_bias="0.137" />
+
+        <TextView
+            android:id="@+id/RecSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/recommended_steps_10_000"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/MinStepss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="332dp"
+            android:text="@string/minimum_steps_8_000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RecSteps"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/GoalSteps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/todays_goal"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/MinStepss"
+            app:layout_constraintVertical_bias="0.099" />
+
+        <TextView
+            android:id="@+id/CurrSteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="108dp"
+            android:layout_marginLeft="108dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginRight="108dp"
+            android:text="@string/current_steps"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/todayGoal"
+            app:layout_constraintVertical_bias="0.203" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

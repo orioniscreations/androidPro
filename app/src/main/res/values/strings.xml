@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name"> My Scheduler</string>
+    <string name="calender">Calender</string>
+    <string name="tasks">Tasks</string>
+    <string name="step_counter">Step Counter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recommended_steps_10_000">Recommended Steps: 10,000</string>
+    <string name="recommended_steps_8_000">Recommended Steps: 8,000</string>
+    <string name="minimum_steps_8_000">Minimum Steps: 8,000</string>
+    <string name="todays_goal">Today\'s Goal:</string>
+    <string name="current_steps">Current Steps</string>
+    <string name="TempTotalHint">0,000</string>
+    <string name="GoalHint">Enter Goal</string>
+</resources>
